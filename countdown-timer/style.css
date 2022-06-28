@@ -1,0 +1,34 @@
+body{
+background-image: url("./img1.jpg");
+background-size: cover;
+background-position: center center;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: "Poppins", sans-serif;
+min-height: 100vh;
+margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.countdown-el{
+    text-align: center;   
+}
+.countdown-el span{
+    font-size: 1.6rem;
+}
